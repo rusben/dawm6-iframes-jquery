@@ -1,0 +1,128 @@
+body{
+	font-family: "Verdana", "Arial", "sans-serif";
+	font-size:12px;
+	margin:0px;
+	padding:0px;
+	border:0px;
+}
+
+
+.textBoxStyle{
+	margin-left:5px;
+	width:100px;
+	-webkit-transition: width 1s ease;  
+   	-moz-transition: width 1s ease;  
+   	-o-transition: width 1s ease;  
+   	-ms-transition: width 1s ease;  
+   	transition: width 1s ease;  
+}
+
+.textBoxStyleError{
+	margin-left:5px;
+	width:100px;
+	-webkit-transition: width 1s ease;  
+   	-moz-transition: width 1s ease;  
+   	-o-transition: width 1s ease;  
+   	-ms-transition: width 1s ease;  
+   	transition: width 1s ease;
+	background-color: red;
+}
+
+.textBoxStyle:focus{
+	width:200px;
+}
+
+.textAreaStyle{
+	margin-left:5px;
+	width:200px;
+	-webkit-transition: width 1s ease;  
+   	-moz-transition: width 1s ease;  
+   	-o-transition: width 1s ease;  
+   	-ms-transition: width 1s ease;  
+   	transition: width 1s ease;  
+}
+
+.textAreaStyle:focus{
+	width:500px;
+}
+
+.textAreaStyleError{
+	margin-left:5px;
+	width:200px;
+	-webkit-transition: width 1s ease;  
+   	-moz-transition: width 1s ease;  
+   	-o-transition: width 1s ease;  
+   	-ms-transition: width 1s ease;  
+   	transition: width 1s ease;
+	background-color: red;
+}
+
+ul, li{
+	list-style:none;
+	margin-top:5px;
+	padding:0px;
+	border:0px;
+}
+
+a{
+	text-decoration:none;
+	color:#3333CC;
+	background-color:#fff;
+	padding:2px 5px 2px 5px;
+	-webkit-transition: background-color 0.5s ease-in, color 0.5s ease-in;
+	-moz-transition: background-color 0.5s ease-in, color 0.5s ease-in;
+	-o-transition: background-color 0.5s ease-in, color 0.5s ease-in;
+	-ms-transition: background-color 0.5s ease-in, color 0.5s ease-in;
+	transition: background-color 0.5s ease-in, color 0.5s ease-in;
+}
+
+a:hover{
+	color:#fff;
+	background-color:#3333CC;
+	padding:2px 5px 2px 5px;
+}
+
+.buttonSytle{
+	margin-top:10px;
+	border:1px solid;
+	border-radius:5px;
+	-moz-border-radius:5px; /* Old Firefox */
+	font-size:12px;
+	box-shadow: 5px 5px 5px #888888;
+}
+
+
+
+tr,*{
+	font-size:12px;
+}
+
+.provenIFrame {
+	width: 80px;
+	height: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

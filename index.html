@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
+	<head>
+		<!--General-->
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<link rel="shortcut icon" HREF="images/proven.jpeg"/>
+		<title>Test Iframes, frames and windows</title>
+		<meta name="description" content="Test module MF6">
+		<meta name="author" content="Robert Plana">
+		
+		<!--css-->
+		<link href="css/index.css" rel="stylesheet" type="text/css"/>
+		
+		<!--Frameworks-->
+		<script src="js/frameworks/jQuery/jQuery.js" type="text/javascript" xml:space="preserve"></script>
+		<!--<script src="http://code.jquery.com/jquery-1.11.3.min.js" type="text/javascript" xml:space="preserve"></script>
+		<script src="http://code.jquery.com/jquery-latest.js" type="text/javascript" xml:space="preserve"></script>-->
+		
+		<!--Own code-->
+		<script src="js/control/index.js" type="text/javascript" xml:space="preserve"></script>
+	</head>
+<body>
+	<b>Tell me the number of boxes you want to create wthin the iframe</b>
+	<input type="number" id="boxNumber" value="0"/>
+	<input type="button" id="modifyIframe" value="Modify Iframe"/>
+	<br/>
+	<br/>
+	<!-- http://proven.cat -->
+	<div id="divIFrame1">
+		<iframe class="provenIFrame" src="http://proven.cat"></iframe>
+	</div>
+	<br/>
+	<br/>
+	<!-- local iframes -->
+	<div id="divIFrame2">		
+		<iframe id="iframe1" class="" src="iframes/iframe1.html"></iframe>
+	</div>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<div id="content"></div>
+</body>
+</html>
+
