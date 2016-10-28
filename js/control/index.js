@@ -12,7 +12,8 @@ $(document).ready(function(){
 			for (var i = 0; i < $("#boxNumber").val(); i++) {
 				divContent += '<input type="number" class="box" value="0"></input>';
 			}
-			divContent += '<button id="addNumber" type="button">Add numbers</button>';
+			divContent += '<button id="addNumber" onclick="addNumbers()" type="button">Add numbers</button>';
+			divContent += '<button id="print" onclick="window.print()" type="button">Print</button>';
 						
 			$("#iframe1").contents().find("#content").html(divContent);
 		
